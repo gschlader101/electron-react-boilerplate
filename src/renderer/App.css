@@ -4,22 +4,30 @@
  */
 body {
   position: relative;
-  color: white;
+  color: rgb(231, 219, 219);
   height: 100vh;
-  background: linear-gradient(
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  /* linear-gradient(
     200.96deg,
     #fedc2a -29.09%,
     #dd5789 51.77%,
     #7a2c9e 129.35%
-  );
-  font-family: sans-serif;
+  ); */
+
+  /* font-family: sans-serif;
   overflow-y: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-button {
+/* button {
   background-color: white;
   padding: 10px 20px;
   border-radius: 10px;
@@ -31,9 +39,9 @@ button {
   transition: all ease-in 0.1s;
   cursor: pointer;
   opacity: 0.9;
-}
+} */
 
-button:hover {
+li:hover {
   transform: scale(1.05);
   opacity: 1;
 }
@@ -54,9 +62,9 @@ a:hover {
   text-decoration: none;
 }
 
-.Hello {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
+  margin: 20px;
 }

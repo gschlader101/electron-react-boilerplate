@@ -70,9 +70,11 @@ const createWindow = async () => {
   };
 
   mainWindow = new BrowserWindow({
-    show: false,
+    kiosk: false, // Enable kiosk mode
+    autoHideMenuBar: false, // Hide the menu bar
+    show: false, // Show the window immediately
     width: 1024,
-    height: 728,
+    height: 768,
     icon: getAssetPath('icon.png'),
     webPreferences: {
       preload: app.isPackaged
